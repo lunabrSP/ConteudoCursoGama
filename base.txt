@@ -1,0 +1,5 @@
+create procedure usp_seleciona_grupo
+
+as
+
+select distinct upper(group_name) as group_name from dd3_copartner order by group_name
